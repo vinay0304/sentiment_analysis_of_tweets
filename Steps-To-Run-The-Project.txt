@@ -1,0 +1,22 @@
+.\bin\windows\zookeeper-server-start.bat .\config\zookeeper.properties 
+
+.\bin\windows\kafka-server-start.bat .\config\server.properties      
+
+python -m venv venv
+
+install project requirements
+
+activate virtual environment
+
+run the kafka_data_producer
+
+run the kafka_data_consumer
+
+run the sentiment_analysis
+
+pre-requisites : start the MongoDb server and open MongodbCompass
+
+check whether the data is being inserted or not
+
+Now run the flask application to visualize the sentiment analysis
+
